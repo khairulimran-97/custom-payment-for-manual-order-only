@@ -1,3 +1,5 @@
+<?php 
+
 add_action('woocommerce_payment_gateways', 'add_manual_payment_gateways');
 
 function add_manual_payment_gateways($gateways) {
@@ -140,3 +142,5 @@ function init_manual_payment_gateways() {
         }
     }
 }
+
+?>
